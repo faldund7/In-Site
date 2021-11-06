@@ -1,5 +1,10 @@
-import react from 'react';
+import React from 'react';
+import styled, { css } from 'styled-components';
 
 const Submit = function(){
-    return();
+    return(
+        <button>hello world</button>
+    );
 }
+
+export default Submit;
