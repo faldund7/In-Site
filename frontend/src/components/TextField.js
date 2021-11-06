@@ -5,8 +5,7 @@ const TextField = function() {
     return (
         <form>
             <label>
-                Enter a URL:
-                <input type="text" name="query" class="input-field"/>
+                <input type="text" name="query" class="input-field" placeholder="Enter a URL"/>
             </label>
             <input type="submit" name="submit" />
         </form>
