@@ -1,0 +1,14 @@
+.input-field {
+    height: 4rem;
+    width: 31.25rem;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    background-color: #ebebeb;
+    color: #4b4a4f;
+    font-family: Helvetica;
+    font-size: 1rem;
+    text-indent: 1rem;
+    transition: all 0.3s;
+    box-shadow: 0.5rem;
+}
