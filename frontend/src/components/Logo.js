@@ -2,7 +2,7 @@ import react from 'react'
 
 const Logo = function() {
     return (
-        <img src="/logo512.png" />
+        <img src="/InSite-Logo.svg" />
     )
 }
 
