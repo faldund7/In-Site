@@ -1,10 +1,23 @@
 import os
 import emot
 import csv
+import pandas as pd
+import emoji
+import string
 
-
-
-emoji_string = "yo whats up 🤠🥰"
 emot_core = emot.core.emot() 
-print(emot_core.emoji(emoji_string)["mean"])
- 
+df = pd.read_csv("en_dup.csv")
+content = df.content
+label = df.label
+
+edited_content = []
+new_item = ""
+for i, item in enumerate(content):
+    new_item = item
+    for character in item:
+        if character not in string.ascii_lowercase and character not in string.ascii_uppercase:
+            new_item = new_item.replace(character, " ")
+    df.content[i] = new_item
+print(df.content.tolist())
+
+df.to_csv("modified_test_dataset.csv")
