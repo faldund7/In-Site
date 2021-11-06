@@ -1,9 +1,12 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import './submit.css';
 
 const Submit = function(){
     return(
-        <button>hello world</button>
+        <div>
+            <button className="style-button">Submit</button>
+        </div>
     );
 }
 
