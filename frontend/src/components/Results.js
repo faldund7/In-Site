@@ -2,7 +2,7 @@ import react from 'react'
 
 const Results = function() {
     return (
-        <div>Hello World</div>
+        <div>I am the results</div>
     )
 }
 
