@@ -9,7 +9,7 @@ emot_core = emot.core.emot()
 df = pd.read_csv("en_dup.csv")
 content = df.content
 label = df.label
-
+index = []
 edited_content = []
 new_item = ""
 for i, item in enumerate(content):
@@ -18,8 +18,11 @@ for i, item in enumerate(content):
         if character not in string.ascii_lowercase and character not in string.ascii_uppercase:
             new_item = new_item.replace(character, " ")
     df.content[i] = new_item
-print(df.content.tolist())
 
+for i in range(0,len(content)):
+    index.append(i)
 df = df.drop(df.columns[[2,3,4]], axis=1)
+df.columns = [ "label", "content"]
+df["index"] = index
 print(df)
-df.to_csv("modified_test_dataset.csv")
+df.to_csv("modified_test_dataset.csv", index=False)
