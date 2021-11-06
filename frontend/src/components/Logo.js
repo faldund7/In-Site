@@ -5,6 +5,7 @@ const Logo = function() {
     return (
         <div class="logo-svg">
             <img src="/InSite-Logo.svg"/>
+            <text className="text-wrapper">truth matters</text>
         </div>   
     )
 }
