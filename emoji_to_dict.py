@@ -20,4 +20,6 @@ for i, item in enumerate(content):
     df.content[i] = new_item
 print(df.content.tolist())
 
+df = df.drop(df.columns[[2,3,4]], axis=1)
+print(df)
 df.to_csv("modified_test_dataset.csv")
