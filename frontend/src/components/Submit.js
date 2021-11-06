@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import './submit.css';
+import '../css/submit.css';
 
 const Submit = function(){
     return(

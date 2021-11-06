@@ -1,6 +1,5 @@
 import react from 'react';
-import './textfield.css';
-import './submit.css';
+import '../css/textfield.css'
 
 const TextField = function() {
     return (

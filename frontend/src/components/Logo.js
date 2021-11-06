@@ -1,8 +1,11 @@
-import react from 'react'
+import react from 'react';
+import '../css/logo.css';
 
 const Logo = function() {
     return (
-        <img src="/InSite-Logo.svg" />
+        <div class="logo-svg">
+            <img src="/InSite-Logo.svg"/>
+        </div>   
     )
 }
 

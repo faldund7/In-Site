@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <Logo></Logo>
       <TextField></TextField>
-      <Submit></Submit>
       <Results></Results>
     </div>
   );
