@@ -1,7 +1,9 @@
 
 const Header = function() {
     return (
-        <div class="header">Header</div>
+        <div class="header">
+            <p>About</p>
+        </div>
     );
 }
 
