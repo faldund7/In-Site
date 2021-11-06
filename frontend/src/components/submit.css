@@ -11,7 +11,7 @@
     font-size: 1.75rem;
     border: 0;
     border-radius: 0.5rem;
-    background: #2f3bdf;
+    background: #053868;
     color: #f7f7f7;
     cursor: pointer;
     outline: none;
@@ -20,5 +20,5 @@
 }
 
 .style-button:hover{
-    background: rgb(47, 100, 185);
+    background: rgb(32, 74, 141);
 }
