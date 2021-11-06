@@ -2,7 +2,7 @@
 const Header = function() {
     return (
         <div class="header">
-            <p>About</p>
+            <a href="#">About</a>
         </div>
     );
 }

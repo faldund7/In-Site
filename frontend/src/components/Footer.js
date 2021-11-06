@@ -2,7 +2,7 @@
 const Footer = function() {
     return (
         <div class="footer">
-            <p>Footer Content</p>
+            <a href="https://github.com/arnavkomaragiri/In-Site">Github</a>
         </div>
     );
 }
