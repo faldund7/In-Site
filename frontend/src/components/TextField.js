@@ -10,8 +10,8 @@ const TextField = function() {
 
     return (
         <form onSubmit={handleSubmit}>
-            <div class="input-field-with-submit">
-                <input type="text" name="query" class="input-field" placeholder="Enter a sentence" onChange={e => setText(e.target.value)}/>
+            <div className="input-field-with-submit">
+                <input type="text" name="query" className="input-field" placeholder="Enter a sentence" onChange={e => setText(e.target.value)}/>
                 <input type="submit" name="submit" className="style-button"/>
             </div>
         </form>
