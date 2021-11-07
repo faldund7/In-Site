@@ -1,4 +1,3 @@
-import './css/styles.css';
 
 import Logo from './components/Logo.js';
 import Results from './components/Results.js';

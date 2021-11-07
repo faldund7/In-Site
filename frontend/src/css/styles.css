@@ -18,20 +18,18 @@
     height: 50px;
   }
 
-  .footer a {
-    float: right;
-    margin-right: 75px;
-    font-family: Helvetica;
-    color: #ffffff;
-    font-size: 15px;
-    text-decoration: none;
-    margin: 15px;
+  .github-social {
+      float: right;
+      margin: 1rem;
+  }
+
+  .github-social img {
+      width: 20px;
   }
 
 /* Header CSS */
 
   .header {
-    margin-top: 1rem;
     padding: 2rem;
     position: fixed;
     top: 0;
@@ -44,7 +42,7 @@
     margin-right: 75px;
     font-family: 'Montserrat', sans-serif;
     color: #7b7b7b;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -115,7 +113,7 @@
 
 /* TextField CSS */
 
-.input-field {
+/* .input-field {
     height: 50px;
     width: 500px;
     border: none;
@@ -128,4 +126,33 @@
     text-indent: 1rem;
     transition: all 0.3s;
     box-shadow: 0.5rem;
+} */
+
+.input-field-with-submit {
+    height: 50px;
+    width: 500px;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 2rem;
+}
+
+.input-field {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-family: Helvetica;
+    color: #4b4a4f;
+    margin: 15px;
+    width: 71%;
+}
+
+.input-field:focus {
+    border: none;
+    outline: none;
+}
+
+.style-button {
+    float: right;
+    margin: 10px;
+    margin-left: 0px;
 }

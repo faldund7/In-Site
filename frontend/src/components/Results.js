@@ -1,8 +1,8 @@
 
 const Results = function() {
     return (
-        <div>I am the results</div>
-    )
+        <div></div>
+    );
 }
 
 export default Results;

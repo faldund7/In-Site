@@ -2,8 +2,7 @@
 const Logo = function() {
     return (
         <div class="logo-svg">
-            <img src="/logo.svg"/>
-            {/* <text className="text-wrapper">truth matters</text> */}
+            <img src="/logo.svg" alt="logo" />
         </div>   
     )
 }
