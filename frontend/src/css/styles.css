@@ -158,3 +158,8 @@
     margin: 10px;
     margin-left: 0px;
 }
+
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: row;
+}
