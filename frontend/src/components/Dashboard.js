@@ -4,8 +4,12 @@ import Insights from "./Insights.js";
 const Dashboard = function(){
     return(
         <div className="dashboard-wrapper">
-            <SimpleCard></SimpleCard>
-            <Insights></Insights>
+            <div className="pie-chart-wrapper">
+                <SimpleCard></SimpleCard>
+            </div>
+            <div>
+                <Insights></Insights>
+            </div>
         </div>
     );
 }
