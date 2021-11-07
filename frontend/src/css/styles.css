@@ -55,10 +55,11 @@
 .logo-svg {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: -1rem;
     align-items: center;
     justify-content: center;
-    scale: 0.2;
+    scale: 0.5;
+    /* margin-top: -100px; */
 }
 
 /* .text-wrapper {
@@ -144,6 +145,7 @@
     color: #4b4a4f;
     margin: 15px;
     width: 71%;
+    
 }
 
 .input-field:focus {
