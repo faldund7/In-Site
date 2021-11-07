@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import Chart from 'react-apexcharts';
 
 const Card = styled.div`
     height: 10rem;
@@ -25,6 +26,7 @@ const SimpleCard = function(){
         <Card>
             <CardTitle>Simple Card</CardTitle>
             <CardContent>Simple Card</CardContent>
+            {/* <Chart></Chart> */}
         </Card>
     );
 }
