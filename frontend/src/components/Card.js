@@ -6,7 +6,7 @@ const Card = styled.div`
     height: 20rem;
     width: 25rem;
     border-radius: 1rem;
-    background: #000000;
+    background: #ebebeb;
 `
 const ChartDiv = styled.div`
     display: flex;
@@ -15,19 +15,21 @@ const ChartDiv = styled.div`
 `
 
 const CardTitle = styled.div`
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 12px;
+    color: black;
+    font-size: 30px;
 `
 
 const CardContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
-    color: white;
+    font-size: 20px;
+    color: black;
 `
 
 
