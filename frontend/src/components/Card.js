@@ -3,10 +3,11 @@ import Chart from 'react-apexcharts';
 import { useState } from 'react';
 
 const Card = styled.div`
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     border-radius: 1rem;
     background: #053868;
+    margin-top: 25px;
 `
 const ChartDiv = styled.div`
     display: flex;
@@ -21,7 +22,10 @@ const CardTitle = styled.div`
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 10px;
 `
 
 const CardContent = styled.div`
@@ -67,7 +71,7 @@ const SimpleCard = function(){
 
     return(
         <Card>
-            <CardTitle>Simple Card</CardTitle>
+            <CardTitle>83% True</CardTitle>
             {/* <CardContent></CardContent> */}
             <ChartDiv>
                 <Chart options={options}
