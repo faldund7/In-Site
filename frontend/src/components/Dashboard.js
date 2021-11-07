@@ -1,4 +1,5 @@
-import SimpleCard from "./SimpleCard.js";
+import SimpleCard from "./Card.js";
+import Insights from "./Insights.js";
 
 const Dashboard = function(){
     return(

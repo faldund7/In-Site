@@ -6,6 +6,7 @@ import MisinformationLink from './components/MisinformationLink.js';
 import Footer from './components/Footer.js';
 import Header from './components/Header.js';
 import SimpleCard from './components/Card.js';
+import Dashboard from './components/Dashboard.js';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <MisinformationLink></MisinformationLink>
       <Results></Results>
       <Footer />
-      <SimpleCard></SimpleCard>
+      {/* <SimpleCard></SimpleCard> */}
+      <Dashboard></Dashboard>
     </div>
   );
 }
