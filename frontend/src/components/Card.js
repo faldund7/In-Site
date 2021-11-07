@@ -53,7 +53,12 @@ const SimpleCard = function(){
           },
           tooltip: { enabled: false },
           legend: { show: false },
-          dataLabels: { enabled: false },
+          dataLabels: { 
+              enabled: true,
+              formatter: function (val) {
+                  return val + '%';
+              },
+         },
           plotOptions: { pie: { donut: { size: "100%" } } },
     
     });
