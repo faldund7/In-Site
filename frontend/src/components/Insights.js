@@ -7,6 +7,8 @@ const TextCard = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-content: left;
+    margin-right: 1.5rem;
+    margin-left: -1rem;
 `
 
 const TextCardTitle = styled.div`
@@ -28,8 +30,8 @@ const TextCardContent = styled.div`
 `
 
 const ArticleCard = styled.div`
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 350px;
     background: #F8F8F8;
     display: flex;
     flex-wrap: wrap;
@@ -55,6 +57,7 @@ const ArticleCardContent = styled.div`
     margin-top: -1rem;
     margin-left: 1rem;
     margin-bottom: 1.5rem;
+    margin-right: 1rem;
 `
 
 const HeaderCard = styled.div`
@@ -71,13 +74,13 @@ const Insights = function(){
         <div className="box-wrapper">
             <TextCard>
                 <TextCardTitle>How we decided on this result</TextCardTitle>
-                <TextCardContent>It is a long established fact that a reader will be distracted by the readable content of a 
-                    page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
-                    as opposed to using 'Content here, content here', making it look like readable English.
+                <TextCardContent>inSite is trained on hundreds of examples of false information expertly procured by
+                researchers for a study published in Frontiers in Psychology to identify COVID-19 misinformation. Using Machine Learning,
+                we are able to determine the likelihood that a given input is true or not.
                 </TextCardContent>
             </TextCard>
             <ArticleCard>
-                <ArticleCardTitle>Why Cheese is out for your money</ArticleCardTitle>
+                <ArticleCardTitle>Cheese is one dangerous little guy</ArticleCardTitle>
                 <ArticleCardContent>The cheese mafia will murder your family and steal everything from you. They hate you and your non-cheese ways. 
                     I hope you die in a bucket of cheese where you belong. It’s delicous. I envy you and your cheese bucket death. 
                     Some of us don’t get to die a hero. But you, you will die in a cheese bucket.
@@ -87,9 +90,10 @@ const Insights = function(){
         <div className="box-wrapper">
             <TextCard>
                 <TextCardTitle>Why this is important</TextCardTitle>
-                <TextCardContent>It is a long established fact that a reader will be distracted by the readable content of a 
-                    page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
-                    as opposed to using 'Content here, content here', making it look like readable English.
+                <TextCardContent>The COVID-19 pandemic has been devastating for the world. Our mission is to identify
+                    COVID-19 misinformation and to equip people with helpful information. By combatting these falsities, we hope
+                    to educate people with trustworthy information. It's important for everyone to work together in order to fully emerge 
+                    from this epidemic.
                 </TextCardContent>
             </TextCard>
             <ArticleCard>
