@@ -16,9 +16,9 @@ function App() {
       <TextField></TextField>
       <MisinformationLink></MisinformationLink>
       <Results></Results>
+      <Dashboard></Dashboard>
       <Footer />
       {/* <SimpleCard></SimpleCard> */}
-      <Dashboard></Dashboard>
     </div>
   );
 }

@@ -1,57 +1,60 @@
 import styled, { css } from 'styled-components';
 
-const ArticleCard = styled.div`
-    height: 200px;
-    width: 300px;
-    border-radius: 1rem;
-    background: #053868;
-`
-
 const TextCard = styled.div`
     height: 200px;
     width: 300px;
-    border-radius: 1rem;
-    background: #053868;
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
 `
 
 const TextCardTitle = styled.div`
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 18px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #053868;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: bold;
 `
 
 const TextCardContent = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 10px;
-    color: black;
+    color: #7b7b7b;
+    font-family: 'Montserrat';
+`
+
+const ArticleCard = styled.div`
+    height: 200px;
+    width: 300px;
+    background: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
+    margin-top: 1rem;
+    border-radius: 2rem;
 `
 
 const ArticleCardTitle = styled.div`
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 18px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    color: #7B7B7B;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: bold;
 `
 
 const ArticleCardContent = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
     font-size: 10px;
-    color: black;
+    color: #7b7b7b;
+    font-family: Montserrat;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
 `
 
 const HeaderCard = styled.div`
