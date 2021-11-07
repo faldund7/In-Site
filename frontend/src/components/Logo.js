@@ -1,9 +1,11 @@
 
+import SVGLogo from '../static/logo.svg'
+
 const Logo = function() {
     return (
         <div className="logo-svg">
-            <img src="./static/logo.svg"alt="In/Site Logo"/>
-            {/* <text className="text-wrapper">truth matters</text> */}
+            <img src={SVGLogo} alt="In/Site Logo"/>
+            {/* <LogoSVGComponent></LogoSVGComponent> */}
         </div>   
     )
 }
