@@ -3,10 +3,10 @@ import Chart from 'react-apexcharts';
 import { useState } from 'react';
 
 const Card = styled.div`
-    height: 20rem;
-    width: 25rem;
+    height: 400px;
+    width: 400px;
     border-radius: 1rem;
-    background: #ebebeb;
+    background: #053868;
 `
 const ChartDiv = styled.div`
     display: flex;
@@ -20,7 +20,7 @@ const CardTitle = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: #ffffff;
     font-size: 30px;
 `
 
@@ -59,7 +59,7 @@ const SimpleCard = function(){
                   return val + '%';
               },
          },
-          plotOptions: { pie: { donut: { size: "100%" } } },
+          plotOptions: { pie: { pie: { size: "100%" } } },
     
     });
 
@@ -68,7 +68,7 @@ const SimpleCard = function(){
     return(
         <Card>
             <CardTitle>Simple Card</CardTitle>
-            <CardContent>Simple Card</CardContent>
+            {/* <CardContent></CardContent> */}
             <ChartDiv>
                 <Chart options={options}
                 series={series}
